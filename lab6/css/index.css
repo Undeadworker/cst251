@@ -1,5 +1,5 @@
 body {
-    font-family: "comic sans ms", "san serif";
+    font-family: Helvetica, Verdana, Arial, "san serif";
     background-color: black;
     padding: 25px;
     font-size: 120%;
@@ -13,7 +13,7 @@ div#content {
 }
 
 h1, h2, h3 {
-    font-family: "comic sans ms", monospace;
+    font-family: "Courier New", monospace;
 }
 
 img {
@@ -35,13 +35,5 @@ p {
 }
 
 h1 {
-  color: #39ff14;
-}
-
-title {
-  color: #39ff14;
-}
-
-h2 {
   color: #39ff14;
 }
