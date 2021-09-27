@@ -1,0 +1,40 @@
+body {
+    font-family: "comic sans", Helvetica, Verdana, Arial, "san serif";
+    background-color: black;
+    padding: 25px;
+    font-size: 120%;
+    margins: 0px
+}
+
+div#content {
+    padding: 50px;
+    background-color: lime;
+    border: solid 0px #39ff14;
+    height: 80vh;
+}
+
+h1, h2, h3 {
+    font-family: "Courier New", monospace;
+}
+
+img {
+    float: right;
+    width: 400px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: lime;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+p {
+  color: #39ff14;
+}
+
+h1 {
+  color: #39ff14;
+}
