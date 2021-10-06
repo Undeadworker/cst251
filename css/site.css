@@ -45,3 +45,17 @@ title {
 h2 {
   color: #39ff14;
 }
+img {
+    float: left;
+    width: 400px;
+    height: auto;
+}
+img#vector{
+  border: solid 10px #39ff14;
+    transition: all 3s ease-out;
+}
+img#vector:hover{
+  border: solid 5px #39ff14;
+  transition: all 3s ease-out;
+  width: 100%;
+}
