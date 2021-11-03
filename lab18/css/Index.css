@@ -96,7 +96,7 @@ footer {
 
 
 @media screen and (max-width: 600px) {
-main {
+body {
     width:100%;
     background-image: url("../img/Work.gif"), linear-gradient(to right, red, orange, yellow, green, blue, purple);
     background-position: top;
@@ -119,13 +119,6 @@ main {
   h1, h2, h3 {
       font-family: "comic sans ms", monospace;
   }
-
-  img {
-      float: right;
-      width: 100%;
-      height: auto;
-  }
-
   a {
       text-decoration: none;
       color: lime;
