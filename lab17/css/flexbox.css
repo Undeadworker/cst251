@@ -1,0 +1,98 @@
+body {
+    font-family: 'Comic Neue', cursive;
+    background-color: white;
+    padding: 25px;
+    font-size: 120%;
+}
+
+div#content {
+    padding: 50px;
+    background-color: lime;
+    border: solid 1px #000000;
+    height: 80vh;
+}
+
+h1, h2, h3 {
+    font-family: "comic sans ms", monospace;
+}
+
+img {
+    float: right;
+    width: 400px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: lime;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+p {
+  color: #000000;
+}
+
+h1 {
+  color: #000000;
+}
+
+title {
+  color: #000000;
+}
+
+h2 {
+  color: #000000;
+}
+img {
+    float: right;
+    width: 400px;
+    height: auto;
+}
+img#vector{
+  border: solid 10px #000000;
+    transition: all 3s ease-out;
+}
+img#vector:hover{
+  border: solid 5px #000000;
+  transition: all 3s ease-out;
+  width: 100%;
+}
+aside {
+    position: sticky;
+    width: 300px;
+    top: 0px;
+    height: 33%;
+    color: #000000;
+    float: right;
+}
+#linkme{
+  padding: 50px;
+  border: solid 1px #000000;
+  height: 80vh;
+  float: left;
+}
+#linkme:hover{
+  border: solid 5px #000000;
+  transition: all 3s ease-out;
+}
+
+footer {
+  color: #000000;
+  position: sticky;
+}
+#linkme2{
+  padding: 50px;
+  border: solid 1px #000000;
+  height: 80vh;
+  float: right;
+}
+#linkme2:hover{
+  border: solid 5px #000000;
+  transition: all 3s ease-out;
+}
+.flexbox{
+display: flex;
+align-content: center;
+}
