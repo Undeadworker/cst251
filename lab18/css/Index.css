@@ -91,57 +91,109 @@ footer {
   transition: all 3s ease-out;
 }
 
+
 ////////////////////////below is scale for smaller
 
 
 @media screen and (max-width: 600px) {
+main {
+    width:100%;
+    background-image: url("../img/Work.gif"), linear-gradient(to right, red, orange, yellow, green, blue, purple);
+    background-position: top;
+    background-repeat: round;
+  }
   body {
       font-family: 'Comic Neue', cursive;
-      background-color: black;
+      background-color: gray;
       padding: 1px;
-      font-size: 120%;
+      font-size: 150%;
   }
+
   div#content {
-      padding: 50px;
+      padding: 1px;
       background-color: lime;
       border: solid 1px #39ff14;
-      height: 80vh;
+      height: auto;
   }
+
+  h1, h2, h3 {
+      font-family: "comic sans ms", monospace;
+  }
+
   img {
-      float: none;
+      float: right;
       width: 100%;
       height: auto;
   }
+
+  a {
+      text-decoration: none;
+      color: lime;
+  }
+  a:hover {
+      text-decoration: underline;
+      text-decoration-style: wavy;
+  }
+  p {
+    color: #39ff14;
+  }
+
+  h1 {
+    color: #39ff14;
+  }
+
+  title {
+    color: #39ff14;
+  }
+
+  h2 {
+    color: #39ff14;
+  }
   img#vector{
-    border: solid 0px #39ff14;
+    border: none 1px #39ff14;
       transition: all 3s ease-out;
   }
+
   img#vector:hover{
-    border: solid 0px #39ff14;
+    border: none 1px #39ff14;
     transition: all 3s ease-out;
     width: 100%;
     height: auto;
   }
+
   aside {
-      position: none:
-      width: auto;
-      height: auto;
+      position: sticky;
+      width: 100%;
       color: #39ff14;
+      float: right;
   }
+
   #linkme{
-    padding: 0px;
-    border: solid 0px #39ff14;
-    height: auto;
-    float: none;
+    padding: 1px;
+    border: none 1px #39ff14;
+    height: 100%;
+    float: left;
   }
+
   #linkme:hover{
-    border: solid 0px #39ff14;
+    border: none 0px #39ff14;
     transition: all 3s ease-out;
   }
 
-body {
- background-image: url("../img/PeqnDDA.gif"), linear-gradient(to right, red, orange, yellow, green, blue, purple);
- background-position: top;
- background-repeat: repeat;
-}
-}
+  footer {
+    color: #39ff14;
+    position: sticky;
+  }
+
+  #linkme2{
+    padding: 1px;
+    border: none 0px #39ff14;
+    height: 100%;
+    float: right;
+  }
+
+  #linkme2:hover{
+    border: solid 1px #39ff14;
+    transition: all 3s ease-out;
+  }
+    }
