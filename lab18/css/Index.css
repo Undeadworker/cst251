@@ -141,24 +141,12 @@ body {
 
   h2 {
     color: #39ff14;
-  }
-  img#vector{
-    border: none 1px #39ff14;
-      transition: all 3s ease-out;
-  }
-
-  img#vector:hover{
-    border: none 1px #39ff14;
-    transition: all 3s ease-out;
-    width: 100%;
-    height: auto;
-  }
 
   aside {
-      position: sticky;
-      width: 100%;
+      position: none;
+      width: 250px;
       color: #39ff14;
-      float: right;
+      float: none;
   }
 
   #linkme{
