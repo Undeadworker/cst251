@@ -96,6 +96,13 @@ footer {
 
 
 @media screen and (max-width: 600px) {
+    .minor-section {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    background: white url(../img/Work.gif) no-repeat center;
+  }
+}
 body {
     width:100%;
     background-image: url("../img/Work.gif"), linear-gradient(to right, red, orange, yellow, green, blue, purple);
